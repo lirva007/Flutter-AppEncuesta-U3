@@ -16,8 +16,8 @@ class _TRESState extends State<TRES> {
     calificacion = widget.contador;
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("ITSSNA - PREGUNTA 3 DE 5")),
-        backgroundColor: Colors.red,
+        title: Center(child: Text("TECNM - PREGUNTA 3 DE 5")),
+        backgroundColor: Colors.blue[900],
       ),
       body: Container(
         child: Column(
@@ -25,7 +25,7 @@ class _TRESState extends State<TRES> {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Text(
-                "¿Qué nivel de capación concidera que tiene nuestro personal?",
+                "¿Qué nivel de capacitación concidera que tiene nuestro personal?",
                 style: TextStyle(fontSize: 20.0),
                 textAlign: TextAlign.center,
               ),

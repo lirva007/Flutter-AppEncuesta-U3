@@ -16,8 +16,8 @@ class _DOSState extends State<DOS> {
     calificacion = widget.contador;
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("ITSSNA - PREGUNTA 2 DE 5")),
-        backgroundColor: Colors.red,
+        title: Center(child: Text("TECNM - PREGUNTA 2 DE 5")),
+        backgroundColor: Colors.blue[900],
       ),
       body: Container(
         child: Column(

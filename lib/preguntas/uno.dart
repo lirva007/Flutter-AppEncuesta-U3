@@ -13,8 +13,8 @@ class _UNOState extends State<UNO> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("ITSSNA - PREGUNTA 1 DE 5")),
-        backgroundColor: Colors.red,
+        title: Center(child: Text("TECNM - PREGUNTA 1 DE 5")),
+        backgroundColor: Colors.blue[900],
       ),
       body: Container(
         child: Column(
@@ -22,7 +22,7 @@ class _UNOState extends State<UNO> {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Text(
-                "¿Cuando llego, la persona que le atendio, lo saludo?",
+                "¿Cuando llegó, la persona que le atendió, lo saludó?",
                 style: TextStyle(fontSize: 20.0),
                 textAlign: TextAlign.center,
               ),

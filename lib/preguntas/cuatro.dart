@@ -16,8 +16,8 @@ class _CUATROState extends State<CUATRO> {
     calificacion = widget.contador;
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("ITSSNA - PREGUNTA 4 DE 5")),
-        backgroundColor: Colors.red,
+        title: Center(child: Text("TECNM - PREGUNTA 4 DE 5")),
+        backgroundColor: Colors.blue[900],
       ),
       body: Container(
         child: Column(
@@ -25,7 +25,7 @@ class _CUATROState extends State<CUATRO> {
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Text(
-                "¿El tiempo de espera para ser atendido fué razonable?",
+                "¿El tiempo de espera para ser atendido fue razonable?",
                 style: TextStyle(fontSize: 20.0),
                 textAlign: TextAlign.center,
               ),

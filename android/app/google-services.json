@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676647687190",
+    "project_id": "unidad4-flutter",
+    "storage_bucket": "unidad4-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676647687190:android:c2e13fed152c0887b69137",
+        "android_client_info": {
+          "package_name": "com.example.clase8encuesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676647687190-f191mq344cirlmj4q2pc0212vf9jds7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBscdSk8xFQbfcPe3F-fwhSnlbz3yw_rjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676647687190-f191mq344cirlmj4q2pc0212vf9jds7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

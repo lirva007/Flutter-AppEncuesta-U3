@@ -28,14 +28,14 @@ class _BienvenidaState extends State<Bienvenida> {
         title: Center(
           child: Text("ENCUESTA DE SATISFACCIÓN TECNM"),
         ),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue[900],
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Center(
               child: Image.asset(
-            'assets/descarga.png',
+            'assets/tecnm.png',
             height: 100,
           )),
           Padding(
@@ -63,7 +63,7 @@ class _BienvenidaState extends State<Bienvenida> {
             },
             icon: Icon(Icons.check_circle),
             label: Text("Aceptar"),
-            color: Colors.red,
+            color: Colors.blue[900],
             textColor: Colors.white,
           )
         ],

@@ -16,8 +16,8 @@ class _CINCOState extends State<CINCO> {
     calificacion = widget.contador;
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("ITSSNA - PREGUNTA 5 DE 5")),
-        backgroundColor: Colors.red,
+        title: Center(child: Text("TECNM - PREGUNTA 5 DE 5")),
+        backgroundColor: Colors.blue[900],
       ),
       body: Container(
         child: Column(

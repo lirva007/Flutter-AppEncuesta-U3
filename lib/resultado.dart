@@ -19,9 +19,8 @@ class _RESULTADOState extends State<RESULTADO> {
     print(calificacion);
     return Scaffold(
         appBar: AppBar(
-          title: Center(child: Text("ITSSNA RESULTADO ENCUESTA")),
-          backgroundColor: Colors.red,
-        ),
+            title: Center(child: Text("TECNM RESULTADO ENCUESTA")),
+            backgroundColor: Colors.blue[900]),
         body: Column(
           children: <Widget>[
             cuerpo(calificacion),
@@ -34,7 +33,7 @@ class _RESULTADOState extends State<RESULTADO> {
                       .push(MaterialPageRoute(builder: (_) => MyApp()));
                 },
                 icon: Icon(Icons.backup_rounded),
-                color: Colors.red,
+                color: Colors.blue[900],
                 textColor: Colors.white,
                 label: Text("Terminar"))
           ],
